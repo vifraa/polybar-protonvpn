@@ -16,7 +16,7 @@ This project depends on the official `protonvpn-cli`. Instructions for downloadi
 ```ini
 [module/polybar-protonvpn]
 type = custom/script
-exec = ~/bin/vpncheck.sh
+exec = ~/opt/polybar-protonvpn/vpncheck.sh
 interval = 15
 ```
 
