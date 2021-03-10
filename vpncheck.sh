@@ -8,8 +8,8 @@ function is_connected {
 
 
 if [ "$(protonvpn-cli s | grep -i "server" | wc -l)" -gt 0 ]; then
-	echo ""
+	echo "%{F#149414}"
 else
-	echo ""
+	echo "%{F#f00}"
 fi
 
