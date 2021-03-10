@@ -1,8 +1,9 @@
 # polybar-protonvpn
 
-Polybar-protonvpn is a custom script to display if a protonvpn connection is currently active.  
+Polybar-protonvpn is a custom polybar script that displays the current protonvpn connection status.  
 
-TODO Insert image here.
+When a connection is active, the green lock is displayed, otherwise the red lock is displayed.  
+![polybar-protonvpn]( screenshots/1.png )
 
 ## Dependencies
 This project depends on the official `protonvpn-cli`. Instructions for downloading it can be found 
